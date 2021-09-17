@@ -1,0 +1,195 @@
+/* Global Styles
+----------------------------*/
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after
+{
+    box-sizing: inherit;
+}
+body 
+{
+    font-family: 'Jura', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.content-wrap
+{
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+h1{
+    font-size: 80px ;
+
+}
+h2 {
+    font-size: 40px;
+}
+h1, h2, h3{
+    margin: 0;
+}
+p
+{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+img{
+    max-width: 350px;
+}
+a {
+    color: #FFC100;
+    padding: 0 20px ;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+.work-experience .job, .education .edu-item
+{
+    border-bottom: 1px dashed #343434;
+}
+.work-experience .job:last-of-type, .education .edu-item:last-of-type
+{
+    border-bottom: none;
+}
+h3 > h3 
+{
+    font-size: smaller;
+}
+
+
+
+/* Brief
+----------------------------*/
+.brief
+{
+    color: ghostwhite;
+    background-color: #020122;
+    text-align: center;
+   
+}
+
+.brief-quote
+{
+    font-family: monospace;
+    color: #FFC100;
+    font-weight: 400px;
+}
+
+/* About
+----------------------------*/
+.about {
+    background-color: #ADB9E3;
+}
+.about img{
+    width: 200px;
+    float: right;
+    border: 3px solid ghostwhite;
+    border-radius: 5px;
+}
+.about .content-wrap {
+    overflow: hidden;
+}
+
+/* Quotes
+----------------------------*/
+.quotes {
+    background-color: #EDD382;
+    background-size: cover;
+}
+.quotes-grid p 
+{ 
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    margin:  0  8px 8px 0 ;
+    border-radius: 5px;
+}
+
+/* Featured projects
+----------------------------*/
+.featured-projects img{
+    max-width: 400px; 
+    float: right;
+    
+}
+.featured-projects
+{
+    background-color: #FDFFFC;
+}
+
+/* Work experience
+----------------------------*/
+.work-experience {
+    background-color: #FDFFFC;
+}
+/* education
+----------------------------*/
+.education
+{
+    background-color: #006E90;
+    color: ghostwhite;
+    padding: 100px auto;
+}
+
+
+/* Contact
+----------------------------*/
+footer {
+    text-align: center;
+    background-color: #27233A;
+    padding: 0 auto;
+    color: ghostwhite;
+}
+.contact-list{
+    list-style-type: none;
+    display: flex;
+    padding: 10px auto;
+}
+
+
+/* Responsive Media
+----------------------------*/
+@media screen and (max-width: 830px) {
+    .contact-list {
+        display: inline-block;
+    }
+    
+    .featured-projects img
+    {
+        display: inline-block;
+        width: 300px;
+    }
+  
+
+}
+@media screen and (max-width:430px) {
+
+    h1 {
+        line-height: 1;
+    }
+   .about img {
+        float: none;
+    }
+    .featured-projects img
+    {
+        float: left;
+        width: 250px;
+        margin-right: 30px;
+    }
+
+
+}
+
+
+
+
+
+
+
